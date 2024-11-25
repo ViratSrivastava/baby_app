@@ -3,7 +3,7 @@ import 'restricted_apps_screen.dart';
 import 'usage_guide_screen.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
