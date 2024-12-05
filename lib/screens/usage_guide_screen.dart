@@ -19,7 +19,12 @@ class UsageGuideScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              '1. Open the app and sign in with your credentials.',
+              '1. Open the app',
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 8),
+            Text(
+              '2. ',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 8),
