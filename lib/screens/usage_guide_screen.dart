@@ -19,12 +19,7 @@ class UsageGuideScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              '1. Open the app',
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 8),
-            Text(
-              '2. ',
+              '1. Open the app.',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 8),
@@ -34,17 +29,27 @@ class UsageGuideScreen extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text(
-              '3. Use the camera feature to scan items.',
+              '3. Grant administrator permission when prompted. This permission is necessary for the app to capture images while other applications are running.',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 8),
             Text(
-              '4. Save your preferences in the settings menu.',
+              '4. The app will capture images every 10 seconds at a resolution of 640x640 pixels when restricted applications (like Instagram, YouTube, or TikTok) are active.',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 8),
             Text(
-              '5. For more help, visit our support page or contact us.',
+              '5. To toggle the image capture feature on or off, press the Volume Up + Power button simultaneously. A prompt will appear at the bottom of the screen indicating whether the model is on or off.',
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 8),
+            Text(
+              '6. If you want to disable image capture temporarily (for example, if a baby is using the phone), you can do so using the same button combination or through the app\'s UI.',
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 8),
+            Text(
+              '7. For more help, visit our support page or contact us.',
               style: TextStyle(fontSize: 18),
             ),
           ],
