@@ -39,3 +39,14 @@ baby_lock_app/
 ├── README.md                        # Documentation
 └── test/                            # Test files
 ```
+
+# permits
+
+```bash
+flutter doctor --android-licenses
+flutter doctor
+flutter emulators
+flutter emulators --launch Pixel_3a_API_34_extension_level_7_x86_64
+flutter devices
+flutter run
+```
